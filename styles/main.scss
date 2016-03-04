@@ -34,12 +34,13 @@ a { color: inherit;
 .top_head {
 	
 	background: url("../images/image01.jpg");
+
 	h2{
 		font-weight: 400;
-		padding: 3em 1em;
+		padding: 2em 1em;
 		text-align: center;
 		color: white;
-		font-size: 200%;
+		font-size: 150%;
 		margin: 0px;
 	}
 	
@@ -169,5 +170,16 @@ footer {
 	}
 
 }
+
+@media (min-width: 479px) { 
+	.top_head{
+		h2 {
+			padding: 3em 1em;
+			font-size: 300%;
+		}
+	}
+
+
+ }
 
 
