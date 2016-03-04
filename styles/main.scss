@@ -8,9 +8,10 @@ nav {
 	overflow: hidden;
 	width: auto;
 	background-color: white;
-	color:black;
-	font-style: none;
+	color:#606A6E;
+	font-weight: bolder;
 	height: 3em;
+
 
 
 }
@@ -23,12 +24,18 @@ nav {
 ul li {
 	float: left;
 	width: 25%;
+	
 }
+a { color: inherit;
+ text-decoration: none; }
+
+.link {color: black;}
 
 .top_head {
 	
 	background: url("../images/image01.jpg");
 	h2{
+		font-weight: 400;
 		padding: 3em 1em;
 		text-align: center;
 		color: white;
@@ -46,20 +53,34 @@ ul li {
 	width: auto;
 	margin: 2em 1em;
 	text-align: center;
-	border: solid #E7E7E7 2px;
+	border: solid #BEBEBE 1px;
+	//border: solid #E7E7E7 2px;
+	;
 	.promo_head{
 		padding: 1em;
 	}
 	h3 {
 		span {
 			color: rgba(255, 255, 255, .5);
+			font-weight: 800;
+			letter-spacing: 0.1em;
+
 		}
+		font-size: 120%;
+		font-weight: lighter;
 		color: white;
+		letter-spacing: 0.2em;
+		
 	}
 	h1 {
+		font-weight: 100;
 		color: white;
+		font-size: 700%;
+		padding: 0;
+		margin: 0;
 	}
 	h2 {
+		font-weight: 100;
 	
 		color: white;
 	
@@ -67,9 +88,14 @@ ul li {
 	p {
 
 		color: #566267;
-		border-top: solid #E7E7E7 1px;
-		
+		font-weight: bolder;
+		border-bottom: solid #BEBEBE 1px;
+		height: 2.5em;	
+		margin: 0;
+		background-color:#F7F7F7;
+		padding: 1em 0em 0em 0em;
 	}
+	
 	.bg_button { 
 		height: auto;
 		background-color: white; 
@@ -77,18 +103,19 @@ ul li {
 	}
 	
 	.button {	
-
+			font-weight: bolder;
+			font-size: 120%;
 			text-align: center;
-			width: 5em;
-			margin: 3em auto;
+			width: 6em;
+			margin: 2em auto;
 			padding: .5em;
 			color: black;
 			border: solid #E7E7E7 2px;
 			background-color: white;
-			-webkit-border-top-right-radius: 50px 30px; 
-            -webkit-border-bottom-right-radius: 50px 30px;
-            -webkit-border-top-left-radius: 50px 30px; 
-            -webkit-border-bottom-left-radius: 50px 30px;
+			-webkit-border-top-right-radius: 30px 30px; 
+            -webkit-border-bottom-right-radius: 30px 30px;
+            -webkit-border-top-left-radius: 30px 30px; 
+            -webkit-border-bottom-left-radius: 30px 30px;
 
 		}
 }
@@ -117,6 +144,30 @@ ul li {
 
 .features{
 	margin: 2em;
+	h2 {
+		letter-spacing: 0.2em;
+		font-weight: 400;
+
+	}
+	p{
+		letter-spacing: 0.1em;
+		font-size: 1.2em;
+		color: #546065;
+	}
+}
+footer {
+	padding: 2em;
+	background-color: black;
+	letter-spacing: 0.1em;
+	font-size: 1.2em;
+	color: #808080;
+	font-weight: 400;
+	a{
+		color: #FFFFFF;
+		text-decoration: underline; 
+		text-decoration-color: #FFFFFF;
+	}
+
 }
 
 
