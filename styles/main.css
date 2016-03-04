@@ -18,8 +18,13 @@ ul li {
   width: 25%; }
 
 .top_head {
-  text-align: center;
-  background-image: url("images/image01.jpg"); }
+  background: url("../images/image01.jpg"); }
+  .top_head h2 {
+    padding: 3em 1em;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    margin: 0px; }
 
 .promo {
   color: white;
@@ -69,5 +74,8 @@ ul li {
 .third .promo_head {
   background-color: #111111;
   margin: 0px; }
+
+.features {
+  margin: 2em; }
 
 /*# sourceMappingURL=main.css.map */
