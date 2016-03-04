@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif; }
+
+nav {
+  overflow: hidden;
+  width: auto;
+  background-color: white;
+  color: black;
+  font-style: none;
+  height: 3em; }
+
+ul {
+  width: 25em;
+  display: inline-block; }
+
+ul li {
+  float: left;
+  width: 25%; }
+
+.top_head {
+  text-align: center;
+  background-image: url("images/image01.jpg"); }
+
+.promo {
+  color: white;
+  background-color: #F7F7F7;
+  width: auto;
+  margin: 2em 1em;
+  text-align: center;
+  border: solid #E7E7E7 2px; }
+  .promo .promo_head {
+    padding: 1em; }
+  .promo h3 {
+    color: white; }
+    .promo h3 span {
+      color: rgba(255, 255, 255, 0.5); }
+  .promo h1 {
+    color: white; }
+  .promo h2 {
+    color: white; }
+  .promo p {
+    color: #566267;
+    border-top: solid #E7E7E7 1px; }
+  .promo .bg_button {
+    height: auto;
+    background-color: white;
+    padding: .01em; }
+  .promo .button {
+    text-align: center;
+    width: 5em;
+    margin: 3em auto;
+    padding: .5em;
+    color: black;
+    border: solid #E7E7E7 2px;
+    background-color: white;
+    -webkit-border-top-right-radius: 50px 30px;
+    -webkit-border-bottom-right-radius: 50px 30px;
+    -webkit-border-top-left-radius: 50px 30px;
+    -webkit-border-bottom-left-radius: 50px 30px; }
+
+.first .promo_head {
+  background-color: #618C52;
+  margin: 0px; }
+
+.second .promo_head {
+  background-color: #2D4D83;
+  margin: 0px; }
+
+.third .promo_head {
+  background-color: #111111;
+  margin: 0px; }
+
+/*# sourceMappingURL=main.css.map */
