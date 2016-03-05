@@ -25,6 +25,8 @@ a {
   color: black; }
 
 .top_head {
+  max-width: 1450px;
+  max-height: 775px;
   background: url("../images/image01.jpg"); }
   .top_head h2 {
     font-weight: 400;
@@ -37,8 +39,7 @@ a {
 .promo {
   color: white;
   background-color: #F7F7F7;
-  width: auto;
-  margin: 2em 1em;
+  margin: 2em .5em;
   text-align: center;
   border: solid #BEBEBE 1px; }
   .promo .promo_head {
@@ -116,7 +117,8 @@ footer {
   letter-spacing: 0.1em;
   font-size: 1.2em;
   color: #808080;
-  font-weight: 400; }
+  font-weight: 400;
+  max-width: 1450px; }
   footer a {
     color: #FFFFFF;
     text-decoration: underline;
@@ -126,5 +128,18 @@ footer {
   .top_head h2 {
     padding: 3em 1em;
     font-size: 300%; } }
+@media (min-width: 767px) {
+  .container {
+    overflow: hidden;
+    margin: 0em;
+    max-width: 1430px; }
+
+  .promo {
+    float: left;
+    width: 31%; }
+
+  .features {
+    float: left;
+    width: 38%; } }
 
 /*# sourceMappingURL=main.css.map */
