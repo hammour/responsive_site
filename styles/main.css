@@ -112,7 +112,6 @@ a {
     color: #546065; }
 
 footer {
-  padding: 2em;
   background-color: black;
   letter-spacing: 0.1em;
   font-size: 1.2em;
@@ -123,6 +122,8 @@ footer {
     color: #FFFFFF;
     text-decoration: underline;
     text-decoration-color: #FFFFFF; }
+  footer p {
+    padding: 2em; }
 
 @media (min-width: 479px) {
   .top_head h2 {
@@ -131,12 +132,12 @@ footer {
 @media (min-width: 767px) {
   .container {
     overflow: hidden;
-    margin: 0em;
+    margin: 0em auto;
     max-width: 1430px; }
 
   .promo {
     float: left;
-    width: 31%; }
+    width: 30.5%; }
 
   .features {
     float: left;

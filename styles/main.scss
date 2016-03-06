@@ -159,7 +159,7 @@ a { color: inherit;
 	}
 }
 footer {
-	padding: 2em;
+	
 	background-color: black;
 	letter-spacing: 0.1em;
 	font-size: 1.2em;
@@ -170,6 +170,9 @@ footer {
 		color: #FFFFFF;
 		text-decoration: underline; 
 		text-decoration-color: #FFFFFF;
+	}
+	p{
+		padding: 2em;
 	}
 
 }
@@ -188,12 +191,13 @@ footer {
  @media (min-width: 767px) { 
 	.container{
 		overflow: hidden;
-		margin: 0em;
+		margin: 0em auto;
 		max-width: 1430px;
 	}
 	.promo{
+
 		float: left;
-		width: 31%;
+		width: 30.5%;
 
 	}
 	.features{

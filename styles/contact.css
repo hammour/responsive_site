@@ -1,3 +1,110 @@
+body {
+  font-family: sans-serif; }
 
+nav {
+  overflow: hidden;
+  width: auto;
+  background-color: white;
+  color: #606A6E;
+  font-weight: bolder;
+  height: 3em; }
+
+ul {
+  width: 25em;
+  display: inline-block; }
+
+ul li {
+  float: left;
+  width: 25%; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.link {
+  color: black; }
+
+.top_head {
+  max-width: 1450px;
+  max-height: 775px;
+  background-color: #2F4E81; }
+  .top_head h2 {
+    font-weight: 400;
+    padding: 2em 1em;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    margin: 0px; }
+
+.features {
+  padding: 2em; }
+
+input {
+  width: 100%;
+  border: solid #DDDDDD 1px; }
+
+textarea {
+  width: 100%;
+  border: solid #DDDDDD 2px;
+  margin: 0em auto; }
+
+.button {
+  font-weight: bolder;
+  font-size: 120%;
+  text-align: center;
+  width: 6em;
+  margin: 2em auto;
+  padding: .5em;
+  color: black;
+  border: solid #E7E7E7 2px;
+  background-color: white;
+  -webkit-border-top-right-radius: 30px 30px;
+  -webkit-border-bottom-right-radius: 30px 30px;
+  -webkit-border-top-left-radius: 30px 30px;
+  -webkit-border-bottom-left-radius: 30px 30px; }
+
+.bg_button {
+  height: auto;
+  background-color: white;
+  padding: .01em; }
+
+footer {
+  background-color: black;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+  color: #808080;
+  font-weight: 400;
+  max-width: 1450px; }
+  footer a {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF; }
+  footer p {
+    padding: 2em; }
+
+.features {
+  border-bottom: solid #DDDDDD 1px; }
+
+@media (min-width: 479px) {
+  .top_head h2 {
+    padding: 3em 1em;
+    font-size: 300%; }
+
+  .features {
+    border-bottom: solid #DDDDDD 1px; } }
+@media (min-width: 767px) {
+  .container {
+    overflow: hidden;
+    margin: 0em auto;
+    max-width: 1430px; }
+
+  .promo {
+    float: left;
+    width: 30.5%; }
+
+  .features {
+    float: left;
+    width: 38%;
+    border-bottom: none; } }
 
 /*# sourceMappingURL=contact.css.map */
