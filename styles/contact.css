@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  max-width: 1450px; }
 
 nav {
   overflow: hidden;
@@ -26,7 +27,8 @@ a {
 
 .top_head {
   max-width: 1450px;
-  max-height: 775px;
+  padding: 2em;
+  height: 10em;
   background-color: #2F4E81; }
   .top_head h2 {
     font-weight: 400;
@@ -37,7 +39,7 @@ a {
     margin: 0px; }
 
 .features {
-  padding: 2em; }
+  padding: 4em; }
 
 input {
   width: 100%;
@@ -85,26 +87,20 @@ footer {
 .features {
   border-bottom: solid #DDDDDD 1px; }
 
-@media (min-width: 479px) {
-  .top_head h2 {
-    padding: 3em 1em;
-    font-size: 300%; }
+.container {
+  max-width: 978px; }
 
+@media (min-width: 479px) {
   .features {
     border-bottom: solid #DDDDDD 1px; } }
 @media (min-width: 767px) {
   .container {
     overflow: hidden;
-    margin: 0em auto;
-    max-width: 1430px; }
-
-  .promo {
-    float: left;
-    width: 30.5%; }
+    margin: 0em auto; }
 
   .features {
     float: left;
-    width: 38%;
+    width: 30%;
     border-bottom: none; } }
 
 /*# sourceMappingURL=contact.css.map */

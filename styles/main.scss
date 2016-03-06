@@ -1,5 +1,7 @@
 body {
 	font-family: sans-serif;
+	max-width: 1450px;
+	
 
 	
  }
@@ -165,7 +167,7 @@ footer {
 	font-size: 1.2em;
 	color: #808080;
 	font-weight: 400;
-	max-width: 1450px;
+	
 	a{
 		color: #FFFFFF;
 		text-decoration: underline; 
@@ -175,6 +177,9 @@ footer {
 		padding: 2em;
 	}
 
+}
+.container{
+	max-width: 978px;
 }
 
 @media (min-width: 479px) { 
@@ -190,9 +195,10 @@ footer {
 
  @media (min-width: 767px) { 
 	.container{
+
 		overflow: hidden;
 		margin: 0em auto;
-		max-width: 1430px;
+		
 	}
 	.promo{
 

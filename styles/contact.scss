@@ -1,5 +1,6 @@
 body {
 	font-family: sans-serif;
+	max-width: 1450px;
 
 	
  }
@@ -34,7 +35,8 @@ a { color: inherit;
 .top_head {
 
 	max-width: 1450px;
-	max-height: 775px;
+	padding: 2em;
+	height: 10em;
 	background-color: #2F4E81;
 	// background: url("../images/image01.jpg");
 
@@ -52,7 +54,7 @@ a { color: inherit;
 
 
 .features{
-	padding: 2em;
+	padding: 4em;
 }
 input{
 	width: 100%;
@@ -64,13 +66,6 @@ textarea{
 	margin: 0em auto;
 }
 
-
-
-
-	
-	
-	
-	
 
 
 .button {	
@@ -117,14 +112,12 @@ footer {
 .features{
 		border-bottom: solid #DDDDDD 1px;
 	}
+.container{
+	max-width: 978px;
+}
 
 @media (min-width: 479px) { 
-	.top_head{
-		h2 {
-			padding: 3em 1em;
-			font-size: 300%;
-		}
-	}
+	
 	.features{
 		border-bottom: solid #DDDDDD 1px;
 	}
@@ -136,17 +129,14 @@ footer {
 	.container{
 		overflow: hidden;
 		margin: 0em auto;
-		max-width: 1430px;
+		
 	}
-	.promo{
+	
 
-		float: left;
-		width: 30.5%;
-
-	}
+	
 	.features{
 		float: left;
-		width: 38%;
+		width: 30%;
 		border-bottom: none;
 	}
 

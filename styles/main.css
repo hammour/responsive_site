@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  max-width: 1450px; }
 
 nav {
   overflow: hidden;
@@ -116,14 +117,16 @@ footer {
   letter-spacing: 0.1em;
   font-size: 1.2em;
   color: #808080;
-  font-weight: 400;
-  max-width: 1450px; }
+  font-weight: 400; }
   footer a {
     color: #FFFFFF;
     text-decoration: underline;
     text-decoration-color: #FFFFFF; }
   footer p {
     padding: 2em; }
+
+.container {
+  max-width: 978px; }
 
 @media (min-width: 479px) {
   .top_head h2 {
@@ -132,8 +135,7 @@ footer {
 @media (min-width: 767px) {
   .container {
     overflow: hidden;
-    margin: 0em auto;
-    max-width: 1430px; }
+    margin: 0em auto; }
 
   .promo {
     float: left;
